@@ -1,0 +1,44 @@
+<html>
+	<head>
+	<script type="text/javascript">
+	function chk(){
+
+	a=parseInt(document.f1.v1.value);
+	
+	if (a % 4==0) {document.f1.a1.value= "This is leap year";
+
+}
+	if (a % 4!=0) {document.f1.a1.value= "Not Leap year";
+}	
+
+}
+
+
+	</script>
+
+
+	</head>
+
+	<body>
+	<pre>
+	<form name="f1">
+
+	Value1<input type="text" name="v1">
+
+
+	Answer<input type="text" name="a1">
+
+	<input type="button" value="ok" onclick="chk();">
+
+
+
+
+
+
+
+
+	</form>
+	</pre>
+
+
+	</body>
